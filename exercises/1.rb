@@ -21,3 +21,15 @@
 # To rectify this, you can convert the number into a string
 # "i would like #{5} tacos"
 
+rnum1 = rand(1..6)
+rnum2 = rand(1..6)
+puts "Hello"
+puts "Random 1: #{rnum1}" 
+puts "Random 2: #{rnum2}"
+puts "Sum of Both: #{rnum1 + rnum2}"
+
+die1 = rand(1..6)
+die2 = rand(1..6)
+total = die1 + die2
+puts "#{die1} #{die2}"
+puts "The total is #{total}"
